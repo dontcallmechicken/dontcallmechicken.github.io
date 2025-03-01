@@ -6,4 +6,4 @@ Hier entsteht eine kleine Webseite mit Informationen und etwas Schnickschnack.
 
 ## Gockel auf GitHub
 - [GitHub Benutzerprofil](https://github.com/dontcallmechicken)
-- [Repository für diese Netzseite](https://github.com/dontcallmechicken/dontcallmechicken.github.io)
+- [Repositorium für diese Netzseite](https://github.com/dontcallmechicken/dontcallmechicken.github.io)
