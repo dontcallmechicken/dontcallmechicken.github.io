@@ -150,7 +150,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!eurocrem` _(Zufallsausgabe)_
   - `!eurocremkasper` _(Zufallsausgabe)_ ([Kasper](https://www.twitch.tv/kasperkast))
   - `!eurocremervin` _(Zufallsausgabe)_ ([Ervin](https://www.twitch.tv/proletopia))
-  - `!eurocremdude` ([ThatSandwichDude](https://www.twitch.tv/thatsandwichdude))
+  - `!eurocremdude` (ThatSandwichDude aka [Sandy](https://www.twitch.tv/sandy))
 - `!stolzmonat` ([Kasper](https://www.twitch.tv/kasperkast))
 
 ## Sitzrasenmäher
