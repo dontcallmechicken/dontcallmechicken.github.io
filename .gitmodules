@@ -1,0 +1,3 @@
+[submodule "buzzword-bingo"]
+	path = buzzword-bingo
+	url = git@github.com:dontcallmechicken/buzzword-bingo-web.git
