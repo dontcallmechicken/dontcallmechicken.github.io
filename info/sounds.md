@@ -209,4 +209,4 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!qualle` oder `!droemel`
 - `!ohneheu` oder `!pferd`
 
-[Zum Seitenanfang](#text-zu-sprache).
+[Zum Seitenanfang](#text-zu-sprache)
