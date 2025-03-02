@@ -1,4 +1,0 @@
-[submodule "buzzword-bingo"]
-	path = buzzword-bingo
-	url = https://github.com/dontcallmechicken/buzzword-bingo.git
-	branch = web
