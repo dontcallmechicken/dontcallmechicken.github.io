@@ -1,0 +1,4 @@
+[submodule "buzzword-bingo-web"]
+	path = buzzword-bingo-web
+	url = https://github.com/dontcallmechicken/buzzword-bingo-web.git
+	branch = main
