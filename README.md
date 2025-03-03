@@ -11,7 +11,6 @@ Huhn – Ei – Küken – Gockel! Gute Unterhaltung vom mittleren Niveau. Non P
 
 ## [Buzzword Bingo](buzzword-bingo/)
 
-
 ## Gockel auf GitHub
 + [GitHub Benutzerprofil](https://github.com/dontcallmechicken)
 + [Repositorium für diese Netzseite](https://github.com/dontcallmechicken/dontcallmechicken.github.io)
