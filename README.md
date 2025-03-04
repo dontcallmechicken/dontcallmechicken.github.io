@@ -9,7 +9,9 @@ Huhn – Ei – Küken – Gockel! Gute Unterhaltung vom mittleren Niveau. Non P
 ## Nützliche Informationen für geschmeidige Zuschauer
 + [Übersicht der Sound Alerts](info/sounds.md)
 
-## [Buzzword Bingo](buzzword-bingo/)
+## Online Bingo
++ [Buzzword Bingo](buzzword-bingo/)
++ [Buzzword Bingo](buzzword-bingo-web/) – Test: Einbinden Repositorium als Unterseite
 
 ## Gockel auf GitHub
 + [GitHub Benutzerprofil](https://github.com/dontcallmechicken)
