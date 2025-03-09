@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  font: normal 1.2em/150% DejaVu, Garamond,"Times New Roman", serif;
+  color: #FAFAFA;
+  background-color: #185C7C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: DejaVu, Tahoma, Verdana, sans-serif;
+}
+
+#navbar ul {
+  font: normal .9em/100% DejaVu, Tahoma, Verdana, sans-serif;
+  color: #FAFAFA;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #2B2F33;
+  position: fixed;
+  top: 0px;
+/*
+  left: 5%;
+  width: 90%;
+*/
+  width: 100%;
+  box-shadow: 0px 5px 5px 0px #000;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li.right {
+  float: right;
+}
+
+#navbar li a {
+  display: block;
+  color: #FAFAFA;
+  text-align: center;
+  padding: 12px 6px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #185C7C;
+  color: #DC9060;
+}
+
+#navbar li a.active {
+  background-color: #04AA6D;
+}
+#navbar .header {
+  font-weight: bold;
+}
+
+/*
+#profile {
+  width: 12%;
+  position: fixed;
+  text-align: center;
+  font: normal .9em/100% DejaVu, Tahoma, Verdana, sans-serif;
+  color: #FAFAFA;
+  text-shadow: 0px 3px 5px #000;
+  overflow: auto;
+  border: 2px solid green;
+}
+*/
+
+#profile ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  font: normal .9em/100% DejaVu, Tahoma, Verdana, sans-serif;
+  text-shadow: 0px 3px 5px #000;
+  text-align: center;
+  border: 2px solid green;
+}
+
+#profile li {
+  margin: 0;
+  padding: 5px 0px 5px;
+  border: 1px solid yellow;
+}
+
+#profile img.avatar {
+  max-width: 100px;
+  max-height: 100px;
+/*
+  height: auto;
+  width: auto;
+*/
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 5px dashed #2B2F33;
+  box-shadow: 0px 5px 20px 0px #000;
+  margin-bottom: 15px;
+}
+
+#profile img.avatar:hover {
+  max-width: 105px;
+  max-height: 105px;
+  border: 5px solid #DC9060;
+  margin-bottom: 10px;
+}
+
+#profile a {
+  font-weight: bold;
+  color: #DC9060;
+  text-decoration: none;
+}
+
+#profile a:hover {
+  color: #545C64;
+}
+
+#content {
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+  margin-left: 20%;
+  border: 2px solid orange;
+}
+
