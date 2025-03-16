@@ -1,18 +1,21 @@
-# Text-zu-Sprache
+# Sound Alerts
+
+## Text-zu-Sprache
+
 Bitte gehe mit *Vicki* gut um! Überstrapaziere sie und damit auch die komplette geschmeidige Gruppe nicht. Danke! <3
 
 ```!tts [Text zur Aussprache]```
 
 Freunde von Vicki kommen in zufälliger Reihenfolge mit `!ttsr` zur Sprache.
 
-# Musik
+## Musik
 Musik kann über den Sound-Alert-Bot während einer Sendung direkt abgespielt werden.
 Mit dem Chatbefehl `!musik` wird die Liste der verfügbaren Lieder als Chatnachricht ausgegeben.
 
 Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pausenhuhn“, Musikvideos per Chatbefehl abspielen zu lassen. Siehe dazu die Befehlsübersichtsseite von FireBot (!commands).
 
-# Tonschnipsel
-## [Abwegige](https://store.steampowered.com/app/1036850/Auf_Abwegen/) Audiospuren
+## Tonschnipsel
+### [Abwegige](https://store.steampowered.com/app/1036850/Auf_Abwegen/) Audiospuren
 + Kia
   - `!heyichbins`
   - `!optimal`
@@ -43,7 +46,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
   - `!wasmachtderdennda` oder `!wtf`
   - `!wasanderesspielen` oder `!tetris`
   
-## Gemichtes Hack
+### Gemichtes Hack
 - `!ens`
 - `!hallo` oder `!servus`, `!hi`, `!hello` _(Zufallsausgabe)_
 - `!konbanwa` (Guten Abend) _(Zufallsausgabe)_
@@ -64,7 +67,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!endgegner`
 - `!lektion` oder `!blutgott`
 
-## Geräusche und Tiere
+### Geräusche und Tiere
 - `!kikeriki` _(Zufallsausgabe)_
 - `!wolfsgeheul` oder `!wolf` _(Zufallsausgabe)_
 - `!nadeldrucker` oder `!endgegner`
@@ -73,7 +76,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!alarm` _(Zufallsausgabe)_
 - `!sirene`
 
-## Freunde, Bekannte oder von Bekannten Leuten
+### Freunde, Bekannte oder von Bekannten Leuten
 + bei [Nemi](https://www.twitch.tv/findetnemi) gefunden
   - `!klug`
   - `!nemigeil` oder `!geilnemi`
@@ -108,7 +111,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
   - `!woliegtderfehler` oder `!fehleranalyse`, Etienne fragt mal nach
   - `!speichellecker` oder `!regierungskonform`, Simon spricht es aus! _(Zufallsausgabe)_
 
-## Der unglaubliche [„Didi“](https://www.twitch.tv/DxnnoLoL) sagt es Euch!
+### Der unglaubliche [„Didi“](https://www.twitch.tv/DxnnoLoL) sagt es Euch!
 - `!daistjemand`
 - `!praezedenzfall` oder`!pf`
 - `!zumkotzen`
@@ -121,7 +124,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!hilfe`
 - `!gg`
 
-## Geschmeidige Leute
+### Geschmeidige Leute
 - `!dontcallmechicken` oder `!dcmc` _(Zufallsausgabe)_
     - `!dcmckasper` _(Zufallsausgabe)_ ([Kasper](https://www.twitch.tv/kasperkast))
     - `!dcmcbielefeld` oder `!dcmcmdbsmash` ([Bielefeld](https://www.twitch.tv/mdbsmash))
@@ -141,7 +144,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!roof?` ([Bielefeld](https://www.twitch.tv/mdbsmash))
 - `!gockellacht`
 
-## Aus der Blase
+### Aus der Blase
 - `!zwitschern` ([Deppendenunziant](https://www.twitch.tv/denunziantenshow))
 - `!rausschneiden` (Raxel, [YT Gabrishka](https://www.youtube.com/user/Babe20Crazy))
 - `!hirnstattsexe` oder `!unnahbar` ([HirnStattHetze](https://www.youtube.com/@hirnstatthetze))
@@ -153,28 +156,28 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
   - `!eurocremdude` (ThatSandwichDude aka [Sandy](https://www.twitch.tv/sandy))
 - `!stolzmonat` ([Kasper](https://www.twitch.tv/kasperkast))
 
-## Sitzrasenmäher
+### Sitzrasenmäher
 - `!sitzrasenmaeher` _(Zufallsausgabe)_ ([Kasper](https://www.twitch.tv/kasperkast))
 - `!dasisteinsitzrasenmaeher` ([Kasper](https://www.twitch.tv/kasperkast))
 - `!alltagssitzrasophobie` oder `!sitzrasophobie` ([Kasper](https://www.twitch.tv/kasperkast))
 - `!sitzrasophobieeinhaltbieten` oder `!stopptsitzrasophobie` ([Kasper](https://www.twitch.tv/kasperkast))
 - `!sitzrasenmaeherschuetzen` ([Miró Wolsfeld](https://www.youtube.com/@unblogd))
 
-## [The Great Re](https://www.weforum.org/great-reset/)-Sample
+### [The Great Re](https://www.weforum.org/great-reset/)-Sample
 - `!truthandtrust`
 - `!intothefuture`
 - `!4thirtech` oder `!4ir`
 - `!geneticengineering` oder `!genetic`
 - `!schwabrmx` _(Zufallsausgabe)_
 
-## [Peters](https://www.youtube.com/c/PersonalPowerCoach) Ratschläge
+### [Peters](https://www.youtube.com/c/PersonalPowerCoach) Ratschläge
 - `!alsfrau`
 - `!beinullanfangen` oder `!0`
 - `!hintern`
 - `!leutehabenkeineahnung` oder `!leute`
 - `!arschvollarbeit`
 
-## Meddl Loide
+### Meddl Loide
 - `!meddl` _(Zufallsausgabe)_
 - `!meddler`
 - `!irrenhaus`
@@ -191,7 +194,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!stolzaufeuch` oder `!rainerstolz`
 - `!waszitterstdu` oder `!waszuckstdu` _(Zufallsausgabe)_
 
-## Deutsch-Brasilianische Freundschaft / Amizade Brasil-Alemanha
+### Deutsch-Brasilianische Freundschaft / Amizade Brasil-Alemanha
 - `!querocafe` – _„Ich will Kaffee!“_; [Quero Café!](https://www.youtube.com/watch?v=VxRpkfcXEpA)
 - `!legalbemlocoempolgante` oder `!lble` – _„Toll, sehr verrückt, Spannend!“_; [Legal, bem loco, Empolgante!](https://www.youtube.com/watch?v=lpaRFQOOTY8)
   - `!legal` – _„toll/ super/ cool“_
@@ -199,7 +202,7 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
   - `!empolgante` – _„spannend/ aufregend“_
 - `!empolgantesong` oder `!empolgantermx` – Musikalischer [Remix von Tibu Fun](https://www.youtube.com/watch?v=or4KcD8vVPs)
 
-## Vier Fäuste für ein Kikeriki
+### Vier Fäuste für ein Kikeriki
 - `!richtigenriecher` oder `!gurke`
 - `!duzen` oder `!gurke2`
 - `!platonisch`
@@ -208,5 +211,3 @@ Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pa
 - `!supersteak`
 - `!qualle` oder `!droemel`
 - `!ohneheu` oder `!pferd`
-
-[Zum Seitenanfang](#text-zu-sprache)
