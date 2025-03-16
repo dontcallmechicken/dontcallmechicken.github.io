@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font: normal 1.2em DejaVu, Garamond,"Times New Roman", serif;
+  color: #FAFAFA;
+  background-color: #185C7C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: DejaVu, Tahoma, Verdana, sans-serif;
+}
+
+hr {
+  border: 1px dashed #DC9060;
+}
+
+a {
+  color: #DC9060;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FAFAFA;
+  text-decoration: underline;
+}
+
+a.freeze:hover {
+  cursor: url(../images/swiffer-70x70.png),auto;
+}
+
+#navbar {
+  font: normal 1em DejaVu, Tahoma, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2; /* Stay on top */
+  background-color: #2B2F33;
+  box-shadow: 0px 5px 15px 0px #000;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li.right {
+  float: right;
+}
+
+#navbar li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  color: #FAFAFA;
+  padding: 0em .3em;
+}
+
+#navbar li a:hover {
+  background-color: #185C7C;
+  color: #DC9060;
+  text-decoration: none;
+}
+
+#navbar li a:hover > .featherNav {
+    color: #FAFAFA;
+}
+
+#navbar li a.active {
+  background-color: #185C7C;
+}
+
+#navbar li a.active > .featherNav {
+    color: #FAFAFA;
+}
+
+#navbar .header {
+  font-weight: bold;
+}
+/* Feather SVG Icons */
+#navbar .featherNav {
+  width: 1.2em; 
+  height: 1em;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  color: red;
+/*  border: 1px solid green; */
+}
+
+#navbar .feather {
+  width: 1.3em; 
+  height: 1.3em;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  color: #545C64;
+}
+
+/* Style page content */
+#content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  transition: .5s;
+  border: 2px solid yellow;
+}
+
+#content div {
+  width: 50em;
+  max-width: 80%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px 10px 40px; /* top right bottom left */
+  background-color: #2B2F33;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px #000;
+  border: 2px solid #545C64;
+}
+
+/* Header/Logo Title */
+#content div h1 {
+  word-break: break-all;
+  position: relative;
+  left: -60px;
+  top: -30px;
+
+/*  width: max-content; */
+  padding: .2em .5em;
+  text-align: center;
+  background: #545C64;
+  border-radius: .2em;
+  text-shadow: 0px 3px 5px #000;
+  box-shadow: 0px 5px 10px 0px #000;
+  /*  border: 2px solid #2B2F33; */
+}
+
+#content div p {
+  margin-left: 20px;
+/*  border: 1px solid green; */
+}
+
+#content div ul {
+  margin-left: 10px;
+/*  border: 1px solid green; */
+}
+
+/* Scroll Back To Top Button */
+/* https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#topButton {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 150px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #DC9060; /* Set a background color */
+  color: #FAFAFA; /* Text color */
+/*  cursor: pointer; /* Add a mouse pointer on hover */
+/* crosshair none not-allowed progress wait */
+  cursor: wait;
+  padding: 10px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 12px; /* Increase font size */
+  transition: .3s;
+}
+
+#topButton:hover {
+  background-color: #545C64; /* Add a dark-grey background on hover */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/*
+@media screen and (max-width: 450px) {
+  #profile {width: 125px;}
+  #profile a {font-size: 12px;}
+  #profile ul {margin-top: 15px;}
+  #content {margin-left: 125px;}
+}
+
+@media screen and (max-height: 450px) {
+  #profile {width: 125px;}
+  #profile a {font-size: 12px;}
+  #profile ul {margin-top: 15px;}
+  #content {margin-left: 125px;}
+}
+*/
