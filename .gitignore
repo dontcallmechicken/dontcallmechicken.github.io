@@ -1,4 +1,6 @@
 # Hugo Static Site Generator
+hugo/
+hugo-site-generator/
 .hugo_build.lock
 # Ignore build dir for sites (hugo server)
 exampleSite/public/
