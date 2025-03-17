@@ -1,3 +1,10 @@
+# Hugo Static Site Generator
+.hugo_build.lock
+# Ignore build dir for sites (hugo server)
+exampleSite/public/
+public/
+
+# Linux files
 *~
 
 # temporary files which can be created if a process still has a handle open of a deleted file
