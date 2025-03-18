@@ -6,6 +6,9 @@ hugo-site-generator/
 exampleSite/public/
 public/
 
+# Other Branch
+only-md
+
 # Linux files
 *~
 
