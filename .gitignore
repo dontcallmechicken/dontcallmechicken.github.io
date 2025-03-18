@@ -5,6 +5,7 @@ hugo-site-generator/
 # Ignore build dir for sites (hugo server)
 exampleSite/public/
 public/
+public-test/
 
 # Other Branch
 branches/
