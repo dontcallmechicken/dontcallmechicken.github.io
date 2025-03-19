@@ -1,18 +1,86 @@
-baseURL = "https://gokarna-hugo.netlify.app"
-defaultContentLanguage = "en"
+# The base URL for your website. 
+# This is typically the domain where your site will be hosted. 
+# Use "/" if hosting locally or configuring later for deployment.
+#baseurl = "/"
+baseurl = "/"
+
+# Enable relative URLs to avoid absolute paths in links. 
+# This is useful for testing locally or deploying to non-root domains.
+#relativeURLs = true
+
+# Use "ugly" URLs for pages (e.g., "/about.html" instead of "/about/").
+# This can be useful for certain server setups or preferences.
+#uglyURLs = true
+
+defaultContentLanguage = "de"
 enableEmoji = true
 enableRobotsTXT = true
-languageCode = "en"
+languageCode = "de"
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 theme = "gokarna"
-title = "Gokarna"
+title = "DontCallMeChicken"
+
+# Display content on the home page
+# Markdown content in content/_index.md will be rendered on the home page, below the social icons.
 
 [params]
-  avatarAltText = "avatar"
-  avatarSize = "size-m"
-  avatarURL = "/images/avatar.webp"
+  # Set the content font-size.
+  #fontSize = "17.5px"
 
+  # Choose the color shown when hyperlinks are hovered over
+  # Comment out for default color, #FF4D4D
+  # DCMC colors: orange #DC9060, blue #185C7C
+  accentColor = "#DC9060"
+
+  # Describe the avatar for screen readers
+  avatarAltText = "avatar"
+  
+  # Set the avatar's size: size-xs, size-s, size-m, size-l & size-xl
+  avatarSize = "size-l"
+  
+  # Resource URL for the site avatar (home page and header)
+  avatarURL = "/images/avatar.webp"
+  
+  # Home page meta description
+  description = "Gute Unterhaltung vom mittleren Niveau"
+  
+  # Footer text (i.e. author/project name)
+  footer = "DCMC, Der olle Gockel"
+  
+  # Define SEO keywords
+  metaKeywords = ["blog", "gokarna", "hugo"]
+  
+  # Display a "back to top" button on posts and pages: true, false
+  # May not render on smaller screen sizes
+  showBackToTopButton = true # true or false for "back to top" button on posts and pages
+
+  # Configure how post dates are displayed
+  #dateFormat = "January 2, 2006"
+  # For time or date format Tokens see https://gohugo.io/functions/time/format/
+  # Date tokens: :date_full, :date_long, :date_medium :date_short
+  dateFormat = ":date_full"
+  
+  # Reading time
+  # Display a post’s estimated reading time in minutes.
+  #displayReadingTime = true
+  
+  # Show the previous and next post in your timeline: "true", "false"
+  # Warning: Incompatible with Weight
+  #togglePreviousAndNextButtons = false
+  
+  # Display posts on the home page:
+  # "popular" (order posts by weight)
+  # "recent" (order posts by date)
+  # "", unset (do not display)
+  #showPostsOnHomePage = "recent"
+  
+  # Define how many posts are displayed on the home page
+  # showPostsOnHomePage must be "popular" or "recent"
+  #numberPostsOnHomePage = 3
+
+  # Inject arbitrary HTML via the <head> tag
+  # Best used for importing custom JavaScript, CSS, or analytics
   customHeadHTML = """
     <!-- KaTeX -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
@@ -34,20 +102,23 @@ title = "Gokarna"
     </script>
   """
 
-  description = "Sky above, sand below and peace within"
-  footer = "The Marauders"
-  metaKeywords = ["blog", "gokarna", "hugo"]
-  showBackToTopButton = true # true or false for "back to top" button on posts and pages
-
   socialIcons = [
-    {name = "twitter", url = "https://example.com"},
-    {name = "linkedin", url = "https://example.com"},
-    {name = "stackoverflow", url = "https://example.com"},
-    {name = "dribbble", url = "https://example.com"},
-    {name = "instagram", url = "https://example.com"},
-    {name = "twitch", url = "https://example.com"},
-    {name = "email", url = "mailto:example@example.com"}
+    #{name = "twitter", url = "https://example.com"},
+    #{name = "linkedin", url = "https://example.com"},
+    #{name = "stackoverflow", url = "https://example.com"},
+    #{name = "dribbble", url = "https://example.com"},
+    #{name = "instagram", url = "https://example.com"},
+    #{name = "email", url = "mailto:example@example.com"},
+    {name = "github", url = "https://github.com/dontcallmechicken"},
+    {name = "twitch", url = "https://www.twitch.tv/dontcallmechicken"},
+    {name = "youtube", url = "https://www.youtube.com/channel/UCA1mifjFo7ImSZeXYBL1j6g"},
+    {name = "suno", url = "https://suno.com/@dcmc"},
+    {name = "rss", url = "/index.xml"}
   ]
+
+# You can add params allowing menu link to open in a new tab:
+# [menu.main.params]
+#   newPage = true
 
 [menu]
   [[menu.main]]
@@ -63,9 +134,9 @@ title = "Gokarna"
     weight = 2
 
   [[menu.main]]
-    name = "Projects"
-    pre = "<span data-feather='code'></span>"
-    url = "/projects/"
+    name = "Strøm"
+    pre = "<span data-feather='tv'></span>"
+    url = "/stream/"
     weight = 3
 
   [[menu.main]]
@@ -75,28 +146,36 @@ title = "Gokarna"
     weight = 4
 
   [[menu.main]]
-    identifier = "github"
-    pre = "<span data-feather='github'></span>"
-    url = "https://github.com/gokarna-theme/gokarna-hugo"
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    url = "/projects/"
     weight = 5
 
   [[menu.main]]
-    identifier = "buymeacoffee"
-    pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
+    identifier = "Buzzword Bingo"
+    pre = "<span data-feather='grid'></span>"
+    url = "/buzzword-bingo/"
     weight = 6
 
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
+[[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/dontcallmechicken"
     weight = 7
+    [menu.main.params]
+      newPage = true
+
+#  [[menu.main]]
+#    identifier = "rss"
+#    pre = "<span data-feather='rss'></span>"
+#    url = "/index.xml"
+#    weight = 8
 
 [markup]
   [markup.tableOfContents]
-    startLevel = 1
+    startLevel = 0
     endLevel = 4
     ordered = false
 
 [minify]
-    minifyOutput = true
+    minifyOutput = false
