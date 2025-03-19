@@ -160,7 +160,7 @@ title = "DontCallMeChicken"
 [[menu.main]]
     identifier = "github"
     pre = "<span data-feather='github'></span>"
-    url = "https://github.com/dontcallmechicken"
+    url = "https://github.com/dontcallmechicken/dontcallmechicken.github.io"
     weight = 7
     [menu.main.params]
       newPage = true
