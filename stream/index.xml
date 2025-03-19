@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DontCallMeChicken</title>
-    <link>/</link>
-    <description>Recent content on DontCallMeChicken</description>
+    <title>Strøm on DontCallMeChicken</title>
+    <link>/stream/</link>
+    <description>Recent content in Strøm on DontCallMeChicken</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/stream/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sound Alerts</title>
       <link>/stream/sounds/</link>
