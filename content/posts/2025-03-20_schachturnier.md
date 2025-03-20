@@ -70,7 +70,7 @@ Die [Rangliste](https://swisssystem.org/full-standings/bb17bfec2ff9424d9ceb5be21
 :information_source: Falls Werbebanner unter der Tabelle angezeigt werden, können diese über ein Menü (drei untereinanderliegende Punkte) *direkt im Banner* deaktivert und ausgeblendet werden.
 
 #### OBS Browserquelle
-Möchte man die Tabelle als Browserquelle in OBS[^5] integrieren, empfiehlt es sich unter `Benutzerdefiniertes CSS` folgendes zu ergänzen:
+Möchte man die Turniertabelle als Browserquelle in OBS[^5] integrieren, empfiehlt es sich unter `Benutzerdefiniertes CSS` folgendes zu ergänzen:
 
 Sorgt dafür, dass der Hintergrund transparent[^6] ist und nur die Tabelle angezeigt wird:
 ```css
