@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DontCallMeChicken</title>
-    <link>/</link>
-    <description>Recent content on DontCallMeChicken</description>
+    <title>Schach on DontCallMeChicken</title>
+    <link>/tags/schach/</link>
+    <description>Recent content in Schach on DontCallMeChicken</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/schach/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Live Schachturnier</title>
       <link>/posts/2025-03-20_schachturnier/</link>
       <pubDate>Thu, 20 Mar 2025 02:48:12 +0100</pubDate>
       <guid>/posts/2025-03-20_schachturnier/</guid>
       <description>&lt;h1 id=&#34;kleines-schachturnier&#34;&gt;Kleines Schachturnier&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Organisator: Elmo aka KnOOspa&lt;/li&gt;&#xA;&lt;li&gt;Veranstalter/Moderator: Der olle Gockel&lt;/li&gt;&#xA;&lt;li&gt;Kommentator: ? wird noch gesucht, bitte melden!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;austragung&#34;&gt;Austragung&lt;/h2&gt;&#xA;&lt;p&gt;Während der Echtzeitübertragung bei Gockel auf dem &lt;a href=&#34;https://www.twitch.tv/dontcallmechicken&#34;&gt;Twitch Kanal &lt;em&gt;DontCallMeChicken&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Donnerstag, 20. März 2025&lt;/li&gt;&#xA;&lt;li&gt;ca. 20:00 Uhr&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ausführung&#34;&gt;Ausführung&lt;/h2&gt;&#xA;&lt;p&gt;Schachserver/-webseite: &lt;a href=&#34;https://www.chess.com/&#34;&gt;Chess.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://link.chess.com/friend/zegRb1&#34;&gt;Freundschaftslink Gockel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Einzelpartien über chess.com. Per Freundesliste Partie starten.&lt;br&gt;&#xA;Alternativ:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Spieler A startet Partie&lt;/li&gt;&#xA;&lt;li&gt;Spieler A lädt Spieler B zur Partie ein&lt;/li&gt;&#xA;&lt;li&gt;Spieler B tritt der Partie bei&lt;/li&gt;&#xA;&lt;li&gt;Link zur Partie (Adresszeile Browser) an Gockel senden&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;schachvariante&#34;&gt;Schachvariante&lt;/h3&gt;&#xA;&lt;p&gt;Standard, Blitzschach&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sound Alerts</title>
-      <link>/stream/sounds/</link>
-      <pubDate>Sat, 11 Mar 2023 00:00:00 +0100</pubDate>
-      <guid>/stream/sounds/</guid>
-      <description>&lt;p&gt;Übersicht über fast alle angelegten Audioeinspieler.&lt;/p&gt;&#xA;&lt;h2 id=&#34;text-zu-sprache&#34;&gt;Text-zu-Sprache&lt;/h2&gt;&#xA;&lt;p&gt;Bitte gehe mit &lt;em&gt;Vicki&lt;/em&gt; gut um! Überstrapaziere sie und damit auch die komplette geschmeidige Gruppe nicht. Danke! &amp;lt;3&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;!tts [Text zur Aussprache]&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Freunde von Vicki kommen in zufälliger Reihenfolge mit &lt;code&gt;!ttsr&lt;/code&gt; zur Sprache.&lt;/p&gt;&#xA;&lt;h2 id=&#34;musik&#34;&gt;Musik&lt;/h2&gt;&#xA;&lt;p&gt;Musik kann über den Sound-Alert-Bot während einer Sendung direkt abgespielt werden.&#xA;Mit dem Chatbefehl &lt;code&gt;!musik&lt;/code&gt; wird die Liste der verfügbaren Lieder als Chatnachricht ausgegeben.&lt;/p&gt;&#xA;&lt;p&gt;Des weiteren gibt es die Möglichkeit während einer Pause, im sogenannten „Pausenhuhn“, Musikvideos per Chatbefehl abspielen zu lassen. Siehe dazu die Befehlsübersichtsseite von FireBot (!commands).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
