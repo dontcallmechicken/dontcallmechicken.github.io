@@ -73,11 +73,11 @@ title = "DontCallMeChicken"
   # "popular" (order posts by weight)
   # "recent" (order posts by date)
   # "", unset (do not display)
-  #showPostsOnHomePage = "recent"
+  showPostsOnHomePage = "recent"
   
   # Define how many posts are displayed on the home page
   # showPostsOnHomePage must be "popular" or "recent"
-  #numberPostsOnHomePage = 3
+  numberPostsOnHomePage = 3
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
