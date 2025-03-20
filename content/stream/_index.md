@@ -9,3 +9,4 @@ draft: false
 ---
 
 - Liste der [Sound Alerts](/stream/sounds/)
+- [Schachturniere](/tags/schachturnier/)

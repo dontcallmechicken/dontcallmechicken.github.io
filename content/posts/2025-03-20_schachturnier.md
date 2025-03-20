@@ -5,7 +5,7 @@ lastmod: 2025-03-20
 showTableOfContents: true
 title: "Live Schachturnier"
 description: "Erstes Schachturnier im Gockel Strøm"
-tags: ["schach","stroem",]
+tags: ["schach","schachturnier","stroem",]
 type: "post"
 draft: false
 ---
