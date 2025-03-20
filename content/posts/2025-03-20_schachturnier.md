@@ -48,11 +48,11 @@ Turnier nach Schweizer System[^1].
   - Verloren 0
   - bei ungerader Teilnehmeranzahl: Aussetzen (Bye) 0.5
 
-### Tie Breaks
-Zur Wertung der Ergebnisse sind im Turniermanagement diese Tie Breaks eingestellt:
-  - Direct Encounter
-  - Buchholz Cut 1[^2]
-  - Buchholz Total[^3]
+### Tie Break
+Zur Wertung der Ergebnisse sind im Turniermanagement diese Tie Breaker eingestellt und werden in dieser Reihenfolge angewandt:
+  1. Direct Encounter
+  2. Buchholz Cut 1[^2]
+  3. Buchholz Total[^3]
 
 Reihenfolge der Tiebreak-Kriterien (Order of tiebreak criteria[^4]):
 > For Swiss tournaments for individuals (not teams), FIDE's 2019 recommendations are:
