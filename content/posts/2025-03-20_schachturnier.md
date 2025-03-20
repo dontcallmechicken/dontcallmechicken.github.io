@@ -11,7 +11,7 @@ draft: false
 ---
 
 # Kleines Schachturnier
-- Organisator: Elmo aka KnOOspa
+- Organisation: Elmo aka KnOOspa, Freeze und Gockel
 - Veranstalter/Moderator: Der olle Gockel
 - Kommentator: ? wird noch gesucht, bitte melden!
 
@@ -32,8 +32,6 @@ Alternativ:
 3. Spieler B tritt der Partie bei
 4. Link zur Partie (Adresszeile Browser) an Gockel senden
 
-
-
 ### Schachvariante
 Standard, Blitzschach
 - 3 - 7 Minuten
@@ -42,7 +40,7 @@ Standard, Blitzschach
 ### Turniersystem
 Turnier nach Schweizer System.
 - 4 Runden
-- Spiel-Punkte:
+- Spiel-Punkte
   - Gewonnen 1
   - Verloren 0
   - bei ungerader Teilnehmeranzahl: Aussetzen (Bye) 0.5
