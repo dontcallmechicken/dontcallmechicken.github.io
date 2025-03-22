@@ -46,6 +46,7 @@ Turnier nach Schweizer System[^1].
 - Spiel-Punkte:
   - Gewonnen 1
   - Verloren 0
+  - Remis 0.5 – 0.5
   - bei ungerader Teilnehmeranzahl: Aussetzen (Bye) 0.5
 
 ### Tie Break
