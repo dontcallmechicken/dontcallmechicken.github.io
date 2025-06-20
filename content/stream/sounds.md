@@ -10,7 +10,8 @@ draft: false
 
 Übersicht über fast alle angelegten Audioeinspieler.  
 
-## Text-zu-Sprache
+## Text-zu-Sprache – aktuell ausgesetzt
+TTS ist aktuell über Kanalpunkteeinlösungen möglich. Die geschmeidige Gruppe hat sich gewünscht, mehr Kanalpunkte ausgeben zu können.
 
 Bitte gehe mit *Vicki* gut um! Überstrapaziere sie und damit auch die komplette geschmeidige Gruppe nicht. Danke! <3
 
